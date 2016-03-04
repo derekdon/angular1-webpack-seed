@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="AppCtrl as appCtrl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <meta http-equiv="Content-Security-Policy"
+              content="default-src * blob:; connect-src * blob:;
+                   script-src * 'unsafe-inline' 'unsafe-eval'
+                               http://localhost:*
+                               http://*.gstatic.com
+                               http://*.googleapis.com
+                               https://*.gstatic.com
+                               https://*.googleapis.com
+                               ;
+                   style-src  'self' 'unsafe-inline'
+                               http://localhost:*
+                               http://*.gstatic.com
+                               http://*.googleapis.com
+                               https://*.gstatic.com
+                               https://*.googleapis.com">
+        <title ng-bind="fullPageTitle"></title>
+    </head>
+    <body>
+
+        <ui-view name="main"></ui-view>
+
+        <script type="text/javascript" src="vendor.bundle.js" charset="utf-8"></script>
+        <script type="text/javascript" src="app.bundle.js" charset="utf-8"></script>
+    </body>
+</html>

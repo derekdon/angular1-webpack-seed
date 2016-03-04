@@ -1,0 +1,44 @@
+{
+  "name": "angular1-webpack-seed",
+  "version": "1.0.0",
+  "description": "A basic angular 1 seed app with ui router, ui bootstrap, webpack + dev server + loaders, gulp, sass, lodash, faker, d3 and bower.",
+  "author": {
+    "name": "Derek Donnelly",
+    "email": "derek@derekdonnelly.com",
+    "url": "blog.derekdonnelly.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/derekdon/angular1-webpack-seed.git"
+  },
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-bootstrap": "^1.2.2",
+    "angular-ui-router": "^0.2.18",
+    "d3": "^3.5.16",
+    "dsv-loader": "^1.0.3",
+    "faker": "^3.0.1",
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "bower-webpack-plugin": "^0.1.9",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "html-loader": "^0.4.3",
+    "json-loader": "^0.5.4",
+    "ng-cache-loader": "0.0.15",
+    "node-sass": "^3.4.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^3.1.2",
+    "script-loader": "^0.6.1",
+    "shelljs": "^0.6.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
